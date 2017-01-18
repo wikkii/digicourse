@@ -1,2 +1,2 @@
 # digicourse
-digitechniquess course
+digital techniques course

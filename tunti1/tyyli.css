@@ -1,0 +1,70 @@
+body {
+    background-image:url(../../img/maisema.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgba(255,255,255,0.7);
+    padding: 5px 10px 20px 15px;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+@media(min-width:450px) {
+    h1{
+        font-size: 36px;
+    }
+}
+
+@media(min-width:850px) {
+    h1{
+        font-size: 56px;
+    }
+}
+
+@media(max-width:500px){
+    #osa1 img{
+        display: none;
+    }
+    
+}
+
+img {
+    width: 100%;
+}
+
+#osa1 > img {
+    max-width: 400px;
+    border-radius: 50%;
+}
+#osa2 img {
+    max-width: 300px;
+    border-radius: 50%;
+}
+#osa3 img {
+    max-width: 600px;
+    border-radius: 50%;
+}
+
+nav {
+    background-color: hotpink;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 10px 0px;
+}
+
+nav a {
+    font-family: fantasy;
+    font-size: 24px;
+    color: aqua;
+    margin: 0px 10px;
+    text-decoration: none;
+}

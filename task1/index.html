@@ -32,21 +32,21 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="topFixedNavbar1">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Info<span class="sr-only">(current)</span></a></li>
+              <li class="active"><a href="#info">Info<span class="sr-only">(current)</span></a></li>
               
               
               <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tuotteet<span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
+                  <li><a href="#collapseOne1">Pizza</a></li>
+                  <li><a href="#collapseTwo1">Shoes</a></li>
+                  <li><a href="#collapseThree1">Ideas</a></li>
                   <li role="separator" class="divider"></li>
-                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#video">Video</a></li>
                   <li role="separator" class="divider"></li>
                   <li><a href="#">One more separated link</a></li>
                 </ul>
               </li>
-              <li><a href="#">Yhetystiedot</a></li>
+              <li><a href="#contact">Yhetystiedot</a></li>
             </ul>
             <form class="navbar-form navbar-left" role="search">
               <div class="form-group">
@@ -106,7 +106,7 @@
         <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
   </div>
   
-  <div class="container-fluid">
+  <div class="container-fluid" id ="info">
     <div class="row">
       <div class="col-lg-3">
       <img src="../../task1img/img2.jpg" class="img-circle img-responsive" alt="Placeholder image">
@@ -148,7 +148,7 @@ Short loin pork belly flank shank, pork loin swine filet mignon burgdoggen. Ribe
         <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1">Pizza</a></h4>
       </div>
       <div id="collapseOne1" class="panel-collapse collapse in">
-        <div class="panel-body">Content for Accordion Panel 1</div>
+        <div class="panel-body">Pizza is great</div>
       </div>
     </div>
     <div class="panel panel-default">
@@ -156,7 +156,7 @@ Short loin pork belly flank shank, pork loin swine filet mignon burgdoggen. Ribe
         <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo1">Shoes</a></h4>
       </div>
       <div id="collapseTwo1" class="panel-collapse collapse">
-        <div class="panel-body">Content for Accordion Panel 2</div>
+        <div class="panel-body">Shoes for everyone</div>
       </div>
     </div>
     <div class="panel panel-default">
@@ -164,11 +164,43 @@ Short loin pork belly flank shank, pork loin swine filet mignon burgdoggen. Ribe
         <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapseThree1">Ideas</a></h4>
       </div>
       <div id="collapseThree1" class="panel-collapse collapse">
-        <div class="panel-body">Content for Accordion Panel 3</div>
+        <div class="panel-body">We have some great ideas we wwill tell you about</div>
       </div>
     </div>
   </div>
-
+  
+  <div class="embed-responsive embed-responsive-16by9" id="video">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sDj72zqZakE"></iframe>
+  </div>
+  
+  <div class="container" id="contact">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
   <!-- Include all compiled plugins (below), or include individual files as needed --> 
 	<!-- <script src="js/bootstrap.js"></script> -->
   <script src="js/bootstrap-3.3.6.js"></script>

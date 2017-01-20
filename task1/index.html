@@ -6,7 +6,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Digikirppis</title>
     <!-- Bootstrap -->
-	<link href="css/bootstrap.css" rel="stylesheet">
+	<!-- <link href="css/bootstrap.css" rel="stylesheet"> -->
+	<link href="css/bootstrap-3.3.6.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Days+One" rel="stylesheet">
+
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -15,11 +18,159 @@
 		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
   </head>
-  <body>
+  <body style="padding-top: 70px">
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 	<script src="js/jquery-1.11.3.min.js"></script>
+    
+    <div class="container-fluid" id="alku">
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topFixedNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            <a class="navbar-brand" href="#alku">DIGIkirppis</a></div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="topFixedNavbar1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Info<span class="sr-only">(current)</span></a></li>
+              
+              
+              <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tuotteet<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Yhetystiedot</a></li>
+            </ul>
+            <form class="navbar-form navbar-left" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="etsi...">
+              </div>
+              <button type="submit" class="btn btn-default">Hae</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+            	<li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-envelope"></span></a></li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+      </nav>
+    </div>
+    
+  <div id="carousel1" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel1" data-slide-to="1"></li>
+        <li data-target="#carousel1" data-slide-to="2"></li>
+        <li data-target="#carousel1" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active"><img src="../../task1img/img1.jpg" alt="First slide image" class="center-block">
+          <div class="carousel-caption">
+            <h3>Everyone loves pizza</h3>
+            <p>Well we sell it here</p>
+          </div>
+        </div>
+        <div class="item"><img src="../../task1img/img2.jpg" alt="Second slide image" class="center-block">
+          <div class="carousel-caption">
+            <h3>Shoes in a box</h3>
+            <p>come get them</p>
+          </div>
+        </div>
+        <div class="item"><img src="../../task1img/img3.jpg" alt="Third slide image" class="center-block">
+          <div class="carousel-caption">
+            <h3>We have these</h3>
+            <p>Many of these</p>
+          </div>
+        </div>
+        <div class="item"><img src="../../task1img/img4.jpg" alt="Third slide image" class="center-block">
+          <div class="carousel-caption">
+            <h3>Ever seen a hedgehog</h3>
+            <p>Well now you have</p>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#carousel1" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel1" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><span class="sr-only">Next</span></a></div>
+      
+  <div class="jumbotron" id="jumbo">
+        <h1>A random trift shop in the middle of nowhere</h1>
+        <p>This place was always founded last tuesday and nothig existed before that. To learn more and, to try to prove us wrong, click the link bellow.</p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+  </div>
+  
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-3">
+      <img src="../../task1img/img2.jpg" class="img-circle img-responsive" alt="Placeholder image">
+		<p>
+  		col 1
+		</p>
+      </div>
+      <div class="col-lg-6" id="center">
+      <img src="../../task1img/img4.jpg" class="img-circle img-responsive" alt="Placeholder image">
+      <p>
+      Bacon ipsum dolor amet chuck drumstick leberkas kielbasa capicola. Pastrami porchetta chicken shankle tenderloin. Picanha salami cupim, shankle brisket frankfurter fatback pig hamburger tri-tip beef. Landjaeger brisket picanha boudin cupim porchetta filet mignon pastrami drumstick pig andouille kielbasa turkey. Kielbasa ribeye meatball beef corned beef flank cupim t-bone jowl chicken biltong shoulder cow sausage. Cow salami cupim ribeye.
+<br>
+<br>
+Short ribs pastrami doner turducken beef tri-tip venison. Ground round swine tenderloin, bacon prosciutto ribeye t-bone tail rump doner andouille. Burgdoggen spare ribs sausage bresaola fatback venison ham. T-bone bacon beef landjaeger tail cupim jerky kevin salami ribeye. Biltong bacon frankfurter shoulder, pork belly tail spare ribs shankle ham hock meatball.
+<br>
+<br>
+Tenderloin venison ham hock landjaeger jerky. Jowl ham hock pork chop meatball beef brisket boudin frankfurter turducken pork belly ham shoulder pork bacon. Turkey leberkas picanha flank kevin tri-tip. Rump ground round cow chuck pork alcatra ribeye shank. Tail pastrami fatback salami, jerky pork belly strip steak pancetta pork chop burgdoggen meatloaf short ribs hamburger. Leberkas salami fatback rump, tongue brisket short ribs meatloaf shoulder t-bone turkey strip steak spare ribs drumstick bresaola. Boudin ball tip porchetta capicola flank leberkas meatball fatback chuck kevin short loin.
+<br>
+<br>
+<br>
+Boudin ham hock shoulder, shank cow tri-tip jerky frankfurter capicola pastrami. Pork short loin beef rump ground round chuck strip steak spare ribs pastrami picanha cow. Corned beef ground round jowl jerky pork loin, capicola shoulder tongue. Tri-tip kevin pork chop strip steak cow chuck.
+<br>
+<br>
+Short loin pork belly flank shank, pork loin swine filet mignon burgdoggen. Ribeye flank hamburger biltong pork chop, prosciutto bresaola boudin spare ribs drumstick venison. Short loin andouille brisket short ribs hamburger jowl cow meatloaf swine pig shoulder. Landjaeger short loin porchetta kevin meatloaf. Fatback spare ribs ribeye cow cupim short ribs sirloin tenderloin shoulder. Cupim tongue drumstick jowl bresaola pig kevin. Pastrami burgdoggen bacon strip steak kevin andouille t-bone brisket turducken.
+      </p>
+      </div>
+      <div class="col-lg-3">
+      <img src="../../task1img/img1.jpg" class="img-circle img-responsive" alt="Placeholder image">
+      <p>
+      col 3
+      </p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="panel-group" id="accordion1" role="tablist" aria-multiselectable="true">
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab">
+        <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1">Pizza</a></h4>
+      </div>
+      <div id="collapseOne1" class="panel-collapse collapse in">
+        <div class="panel-body">Content for Accordion Panel 1</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo1">Shoes</a></h4>
+      </div>
+      <div id="collapseTwo1" class="panel-collapse collapse">
+        <div class="panel-body">Content for Accordion Panel 2</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapseThree1">Ideas</a></h4>
+      </div>
+      <div id="collapseThree1" class="panel-collapse collapse">
+        <div class="panel-body">Content for Accordion Panel 3</div>
+      </div>
+    </div>
+  </div>
 
-	<!-- Include all compiled plugins (below), or include individual files as needed --> 
-	<script src="js/bootstrap.js"></script>
-  </body>
+  <!-- Include all compiled plugins (below), or include individual files as needed --> 
+	<!-- <script src="js/bootstrap.js"></script> -->
+  <script src="js/bootstrap-3.3.6.js"></script>
+</body>
 </html>

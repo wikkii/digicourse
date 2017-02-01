@@ -9,8 +9,10 @@
 	<!-- <link href="css/bootstrap.css" rel="stylesheet"> -->
 	<link href="css/bootstrap-3.3.6.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Days+One" rel="stylesheet">
-
-
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.structure.min.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.theme.min.css">
+    <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
@@ -148,7 +150,7 @@ Short loin pork belly flank shank, pork loin swine filet mignon burgdoggen. Ribe
       <div class="panel-heading" role="tab">
         <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1" id="collapseOne">Pizza</a></h4>
       </div>
-      <div id="collapseOne1" class="panel-collapse collapse in">
+      <div id="collapseOne1" class="panel-collapse collapse">
         <div class="panel-body">Pizza is great</div>
       </div>
     </div>
@@ -202,8 +204,81 @@ Short loin pork belly flank shank, pork loin swine filet mignon burgdoggen. Ribe
     </tbody>
   </table>
 </div>
+<div id="Accordion1">
+<h3><a href="#">Seats</a></h3>
+<div>
+<p>here you can find lots of information about seats
+<br>
+<br>
+Short loin pork belly flank shank, pork loin swine filet mignon burgdoggen. Ribeye flank hamburger biltong pork chop, prosciutto bresaola boudin spare ribs drumstick venison. Short loin andouille brisket short ribs hamburger jowl cow meatloaf swine pig shoulder. Landjaeger short loin porchetta kevin meatloaf. Fatback spare ribs ribeye cow cupim short ribs sirloin tenderloin shoulder. Cupim tongue drumstick jowl bresaola pig kevin. Pastrami burgdoggen bacon strip steak kevin andouille t-bone brisket turducken.
+</p>
+</div>
+ <h3><a href="#">Tables</a></h3>
+ <div>
+ <p>Tables are nice for puttin stuff on</p>
+ <p>
+ Boudin ham hock shoulder, shank cow tri-tip jerky frankfurter capicola pastrami. Pork short loin beef rump ground round chuck strip steak spare ribs pastrami picanha cow. Corned beef ground round jowl jerky pork loin, capicola shoulder tongue. Tri-tip kevin pork chop strip steak cow chuck.
+ </p>
+ </div>
+ <h3><a href="#">Questionables</a></h3>
+ <div>
+ <p>Question everything in here</p>
+ <p>Short ribs pastrami doner turducken beef tri-tip venison. Ground round swine tenderloin, bacon prosciutto ribeye t-bone tail rump doner andouille. Burgdoggen spare ribs sausage bresaola fatback venison ham. T-bone bacon beef landjaeger tail cupim jerky kevin salami ribeye. Biltong bacon frankfurter shoulder, pork belly tail spare ribs shankle ham hock meatball.</p>
+ </div>
+</div>
+
+<div id="tabs">
+<ul>
+<li><a href="#tabs-1">Tab 1</a></li>
+<li><a href="#tabs-2">Tab 2</a></li>
+<li><a href="#tabs-3">Tab 3</a></li>
+<li><a href="#tabs-4">Tab 4</a></li>
+</ul>
+<div id="tabs-1">
+<p>Content 1</p>
+</div>
+<div id="tabs-2">
+<p>Content 2</p>
+</div>
+<div id="tabs-3">
+<p>Content 3</p>
+</div>
+<div id="tabs-4">
+<p>Content 4</p>
+</div>
+</div>
+
+<div class="container-fluid">
+<div class="row">
+    <div class="col-sm-6">
+       <p>content</p>
+       <a href="../../task1img/img1.jpg" data-lightbox="rip"><img src="../../task1img/laiva1.jpg" alt="thumb1"></a><br>
+       <a href="../../task1img/img4.jpg" data-lightbox="rip">Image #2</a>  <br>
+		<a href="../../task1img/img3.jpg" data-lightbox="rip">Image #3</a>  <br>
+		<a href="../../task1img/img2.jpg" data-lightbox="rip">Image #4</a><br>
+
+    </div>
+    <div class="col-sm-6"> 
+       <p>content1123</p>
+    </div>
+</div>
+</div>
+<script type="text/javascript">
+$(function() {
+	$( "#Accordion1" ).accordion(); 
+});
+  </script>
+  <script>
+  $( function() {
+    $( "#tabs" ).tabs();
+  } );
+  </script>
+
+
   <!-- Include all compiled plugins (below), or include individual files as needed --> 
 	<!-- <script src="js/bootstrap.js"></script> -->
   <script src="js/bootstrap-3.3.6.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/lightbox.min.js"></script>
 </body>
 </html>
